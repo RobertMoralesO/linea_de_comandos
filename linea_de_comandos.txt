@@ -1,2 +1,31 @@
 
-ls /usr/bin
+
+ls
+ls -l
+ls -lh
+ls -lha
+pwd
+cd .
+cd ..
+cd
+mkdir
+touch prueba.md
+mkdir pruebas
+mv pruebas tests
+rm prueba.md
+rm -r tests
+rm -rf tests
+man rm
+mv prueba.md sandbox/
+cp prueba.md ../
+pushd ~
+popd 
+open file.gif
+more file.csv
+cat > file.csv
+tail file.csv
+tail -15 file.csv
+which ls
+echo $PATH
+alias ll = 'ls -lh'
+alias topen = 'open -a Atom'
